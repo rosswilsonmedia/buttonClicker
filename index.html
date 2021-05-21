@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Button Clicker</h1>
+        <div class="popUp">
+            <div class="header">
+                <p>Error</p>
+                <button id="close" onclick="closePopUp()">X</button>
+            </div>
+            <div class="content">
+                <p>Windows encountered an error, please Check Your Computer</p>
+            </div>
+        </div>
+        <div class="menu">
+            <button id="start" onclick="start()">&#8862; Start</button>
+            <button id="likeButton" onclick="likeButton()"><span>0</span> Likes</button>
+            <button id="checkYourComputer" onclick="checkYourComputer()">Check Your Computer</button>
+            <button id="internetExplorer" onclick="internetExplorer()">Internet Explorer</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="buttonClicker.js"></script>
+</body>
+</html>

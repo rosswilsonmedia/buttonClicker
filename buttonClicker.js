@@ -22,7 +22,7 @@ function likeButton(){
 }
 
 function checkYourComputer(){
-    alert('This is Oscar from tech support. Your computer is no longer working. Please insert your credit card into your disk drive to fix this problem. Please call 1-800-WINDOWS-HELP-NOW for additional support.');
+    alert('This is Oscar from tech support. Your computer is no longer working. Please insert your credit card into your disk drive to fix this problem. Call 1-800-WINDOWS-HELP-NOW for additional support.');
     if(confirm('Would you like to restart Windows now?')){
         var container=document.querySelector(".container")
         container.style.backgroundColor="darkslategrey";
